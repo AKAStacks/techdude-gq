@@ -10,13 +10,11 @@ layout: home
     <div class="spotlight">
         <div class="content">
             <header class="major">
-                <h2>{% for post in site.posts %} {{ post.title }} {% endfor %}</h2>
+                {% for blogpost in site.blogposts %}
+                    <h2>{{ blogpost.title }}</h2>
             </header>
-            <p>What's that, you say? You want your computer to make you a sandwich? It isn't doing what you want it to do? You need a website? You need an app for your start-up? Oh, you can't get into your e-mail...<br /><br /> 
-
-                Whatever--I can help. Give me a shout at <a href="mailto:{{ site.email }}">{{ site.email }}</a> or <a href="#footer">call me</a>.<br /><br /> 
-               
-                You can also contact me on any of my social media accounts. Click the icons at the bottom of this page.</p>
+                <p>{{ blogpost.content }}</p>
+            {% endfor %}
         </div>
         <span class="image"><img src="images/board-blickpixel-pixabay.jpg" alt="" /></span>
     </div>

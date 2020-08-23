@@ -31,11 +31,6 @@ instagram_username:  broke.b.rich
 email: denniszarger@gmail.com
 phone: (540) 440-1337
 
-sections:
-  - intro
-  - posts
-  - contact
-
 # Build settings
 theme: minima
 plugins:
@@ -73,6 +68,8 @@ sass:
   sass_dir: _sass
 collections:
   posts:
+    output          : false
+  blogposts:
     output          : true
 
 # Handling Reading
@@ -86,7 +83,7 @@ strict_front_matter : false
 
 # Filtering Content
 show_drafts         : null
-limit_posts         : 0
+limit_posts         : 1
 future              : false
 unpublished         : false
 
@@ -114,7 +111,7 @@ paginate_path       : /page:num
 timezone            : null
 
 quiet               : false
-verbose             : false
+verbose             : true
 defaults            : []
 
 liquid:

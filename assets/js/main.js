@@ -121,3 +121,22 @@
 		});
 
 })(jQuery);
+
+(function() {
+	if (window.innerWidth <= 980) {
+		let arrow = document.getElementById("arrow");
+		arrow.classList.remove("fa-arrow-right");
+		arrow.classList.add("fa-arrow-down");
+	}
+	window.onresize = function() {
+		if (window.innerWidth <= 980) {
+			let arrow = document.getElementById("arrow");
+			arrow.classList.remove("fa-arrow-right");
+			arrow.classList.add("fa-arrow-down");
+		} else {
+			let arrow = document.getElementById("arrow");
+			arrow.classList.remove("fa-arrow-down");
+			arrow.classList.add("fa-arrow-right");
+		}
+	}
+})()

@@ -8,6 +8,7 @@ layout: post
 
 {% for blogpost in site.blogposts %}
 <header class="major">
+    <i>{{ blogpost.date | date: "%b %d %y" }}</i>
     <h2>{{ blogpost.title }}</h2>
 </header>
 {{ blogpost.content }}

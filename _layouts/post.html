@@ -6,10 +6,11 @@
 -->
 <html>
 	<head>
-		<title>Generic - Stellar by HTML5 UP</title>
+		<title>{{page.title}}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" image="image/png" href="/images/favicon.png">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -17,6 +18,10 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
+				<!-- Header -->
+				{% include header.html %}
+
+				<!-- Navigation -->
 				<nav id="nav">
 					<ul>
 						<li><a href="/index" class="active">About</a></li>
@@ -25,8 +30,6 @@
 					</ul>
 				</nav>
 
-				<!-- Header -->
-				{% include header.html %}
 				<!-- Main -->
 					<div id="main">
 						<!-- Content -->

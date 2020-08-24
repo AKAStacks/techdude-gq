@@ -10,9 +10,9 @@ layout: home
     <div class="spotlight">
         <div class="content">
             <header class="major">
-                <h2>I do computers (professionally)</h2>
+                <h2>I do electronics for money</h2>
             </header>
-            <p>What's that, you say? You want your computer to make you a sandwich? It isn't doing what you want it to do? You need a website? You need an app for your start-up? Oh, you can't get into your e-mail...<br /><br /> 
+            <p>What's that, you say? You want your computer to make you a sandwich? It isn't doing what you want it to do? You need a website? You need help getting your man-cave rigged? Oh, you can't get into your e-mail...<br /><br /> 
 
                 Whatever--I can help. Give me a shout at <a href="mailto:{{ site.email }}">{{ site.email }}</a> or <a href="#footer">call me</a>.<br /><br /> 
                

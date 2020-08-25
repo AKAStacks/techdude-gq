@@ -134,7 +134,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: var(--right-bg-color);
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2389,6 +2389,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		max-width: calc(100% - 2em);
 	}
 
 		.image img {
@@ -3242,7 +3243,7 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: var(--left-bg-color);
 		position: absolute;
-		width: 64em;
+		width: calc(100% - 2em);
 		max-width: calc(100% - 4em);
 		padding: 1em;
 
@@ -3350,7 +3351,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#nav {
-				display: none;
+				/* display: none; */
 			}
 
 				#nav + #main {

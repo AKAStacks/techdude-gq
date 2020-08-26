@@ -129,3 +129,13 @@ kramdown:
   hard_wrap         : false
   footnote_nr       : 1
   show_warnings     : false
+
+navbar:
+    - title: Mission
+      url: /
+
+    - title: Services
+      url: /services.html
+
+    - title: Blog
+      url: /bloghome.html

@@ -1,8 +1,11 @@
 <nav id="nav">
     <ul>
-        <li><a href="/index#intro" class="active">Mission</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/bloghome">Blog</a></li>
+        {% for navitem in site.navbar %}
+            {% if page.url == navitem.url %}
+                {% continue %}
+            {% endif %}
+        <li><a href="{{ navitem.url }}">{{ navitem.title }}</a></li>
+        {% endfor %}
         <li><a href="#footer">Contact</a></li>
     </ul>
 </nav>

@@ -11,8 +11,8 @@ layout: post
         Image credit: <a href="https://pixabay.com/users/jarmoluk+143740">Jarmoluk</a>@<a href="https://pixabay.com">Pixabay</a></i>
 </div><br />
 <header class="major">
-    <h2>What services do we provide?</h2>
-    It would be easier to list about what services we <i>wouldn't</i> be willing to provide. With that said, here's a (non-exhaustive) list of things we do regularly:
+    <h2>What services does techdude provide?</h2>
+    It would be easier to list services I <i>can't</i> provide. With that said, here's a (non-exhaustive) list of things I do regularly:
 </header>
 <style>
     ul {

@@ -14,7 +14,7 @@ layout: home
             </header>
             <p>What's that, you say? You want your computer to make you a sandwich? It isn't doing what you want it to do? You need a website? You need help getting your man-cave rigged? Oh, you can't get into your e-mail...<br /><br /> 
 
-                Whatever--I can help. Give me a shout at <a href="mailto:{{ site.email }}">{{ site.email }}</a> or <a href="#footer">call me</a>.<br /><br /> 
+                Whatever--I can help (see a full list of <a href="/services">services here</a>). Give me a shout at <a href="mailto:{{ site.email }}">{{ site.email }}</a> or <a href="#footer">call me</a>.<br /><br /> 
                
                 You can also contact me on any of my social media accounts. Click the icons at the bottom of this page.</p>
         </div>

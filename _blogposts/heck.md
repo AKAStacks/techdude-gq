@@ -12,7 +12,7 @@ A long time ago, in a board room far, far away a gallant group of product design
         <i>Image credit: lcdtvbuyingguide.com</i>
 </div><br />
 
-Years later, the scavengers of the world (myself included) would get their hands on this TV for the low-low price of fuck-all; thank you, mindless consumerism! Fewer would deem to use this TV as their primary PC display. I was one of those lucky fools.
+Years later, the scavengers of the world (myself included) would get their hands on this TV for the low-low price of fuck-all; thank you, mindless consumerism! Fewer would deign to use this TV as their primary PC display. I was one of those lucky fools.
 
 In 2008, you could hardly get a prettier television. In 2020, we expect a few things from our TVs that we didn't back then. Exhibit A: we want our TVs to time-out after No Signal. A primary fault of this particular display was that it did not, in fact, time-out after No Signal. It will instead stay on all night, telling you just how little signal it is receiving.
 

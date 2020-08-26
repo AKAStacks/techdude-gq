@@ -12,5 +12,4 @@ layout: post
     <h2>{{ blogpost.title }}</h2>
 </header>
 {{ blogpost.content }}
-<header class="major">
 {% endfor %}

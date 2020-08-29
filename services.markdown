@@ -4,15 +4,11 @@
 
 title: techdude Services 
 layout: post
+output: false
 ---
-<div style="width:100%; display: grid; place-items: center; text-align: center;">
-        <img class="image fit" style="margin: 0 0 0 0;" src="images/services.png">
-        <i>No, we will not put our screw-drivers in your PCIe slot...<br/>
-        Image credit: <a href="https://pixabay.com/users/jarmoluk+143740">Jarmoluk</a>@<a href="https://pixabay.com">Pixabay</a></i>
-</div><br />
 <header class="major">
     <h2>What services does techdude provide?</h2>
-    It would be easier to list services I <i>can't</i> provide. With that said, here's a (non-exhaustive) list of things I do regularly:
+    Please note: this list is non-exhaustive--that is, if it involves electronics somehow, I can probably do it. Here is a list of things I do regularly:
 </header>
 <style>
     ul {
@@ -20,7 +16,7 @@ layout: post
         margin-left: 1em;
     }
 </style>
-+ Level 1/2 IT Support (Read: "How do I...")
++ Tier 1-4 IT Support (I can help you with your computer/phone/server)
 + Audio/Video set-up/consultation (including home video surveillance)
 + Home Automation
 + Graphic Design
@@ -28,4 +24,4 @@ layout: post
 + Specialized Electronics
 + Very basic board-level repair
 
-Pricing is negotiable based on services rendered and time until we adopt a consistent model. If you need something done that's not on this list and it involves a computer, just [send me an e-mail](mailto:denniszarger@gmail.com) and I'll be happy to talk with you.
+Pricing is negotiable based on services rendered and time consumed until I adopt a consistent model. Pricing starts at $15/hr If you need something done that's not on this list and it involves a computer, just [send me an e-mail](mailto:{{ site.email }}) and I'll be happy to talk with you.

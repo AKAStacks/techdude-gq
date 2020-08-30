@@ -22,6 +22,7 @@ output: false
 + Graphic Design
 + Website Design/Development
 + Specialized Electronics
-+ Very basic board-level repair
++ Basic board-level repair
++ Custom software design/development
 
 Pricing is negotiable based on services rendered and time consumed until I adopt a consistent model. If you need something done that's not on this list and it involves a computer, just [send me an e-mail](mailto:{{ site.email }}) and I'll be happy to talk with you.

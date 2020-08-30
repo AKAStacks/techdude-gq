@@ -16,7 +16,7 @@ output: false
         margin-left: 1em;
     }
 </style>
-+ Tier 1-4 IT Support (I can help you with your computer/phone/server)
++ IT Support (Tier 1-4) (I can help you with your computer/phone/server)
 + Audio/Video set-up/consultation (including home video surveillance)
 + Home Automation
 + Graphic Design

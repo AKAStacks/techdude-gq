@@ -41,7 +41,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	touch-action: manipulation;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -157,21 +159,6 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
-
-			body, input, select, textarea {
-				font-size: 12pt;
-			}
-
-		}
-
-		@media screen and (max-width: 360px) {
-
-			body, input, select, textarea {
-				font-size: 11pt;
-			}
-
-		}
 
 	a {
 		-moz-transition: color 0.2s ease, border-bottom 0.2s ease;

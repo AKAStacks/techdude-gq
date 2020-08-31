@@ -20,12 +20,7 @@ layout: home
         <span class="image"><img src="images/board-blickpixel-pixabay.jpg" alt="" /></span>
     </div>
 
-    <div id="services"></div>
-    {% for page in site.pages %}
-        {% if page.title == "techdude Services" %}
-            {{ page.content | markdownify }}
-        {% endif %}
-    {% endfor %}
+    <div id="services">
+        {% include services.html %}
+    </div>
 </section>
-
-

@@ -8,7 +8,7 @@
 	<head>
 		<title>{{ page.title }}</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" image="image/png" href="/images/favicon.png">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -31,7 +31,11 @@
 					</div>
 
 				<!-- Footer -->
-				{% include footer.html %}
+				<footer id="footer">
+				{% if page.url != "/contact.html" %}
+					{% include footer.html %}
+				{% endif %}
+				</footer>
 			</div>
 
 		<!-- Scripts -->

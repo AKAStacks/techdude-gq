@@ -180,7 +180,7 @@ input, select, textarea {
 		transition: color 0.2s ease, border-bottom 0.2s ease;
 		text-decoration: none;
 		border-bottom: dotted 1px;
-		color: inherit;
+		color: var(--dark);
 	}
 
 		a:hover {

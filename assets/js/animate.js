@@ -12,8 +12,8 @@
             twoStop = theSVG.getElementById("stop1055");
             threeStop = theSVG.getElementById("stop1061");
 
-            startAnim();
-            document.getElementById("logo").addEventListener("mouseover",startAnim);
+            startLogoAnim();
+            document.getElementById("logo").addEventListener("mouseover",startLogoAnim);
         }
     }
 
@@ -38,19 +38,15 @@
         }
     }
 
-    function center() {
-        let logo = document.getElementById("logo");
-        let pcbElement = document.getElementById("pcbtraces");
-
-        console.log(pcbElement.clientHeight);
-        console.log(window.getComputedStyle(pcbElement).getPropertyValue('height'));
-
-        let ydiff = ((pcbElement.clientHeight/2) - (logo.getBoundingClientRect().bottom - (logo.clientHeight/2)))
-        pcbElement.style.top = Math.round(-1*ydiff) + "px";
+    function center(object, target) {
+        let ydiff = ((object.clientHeight/2) - (target.getBoundingClientRect().bottom - (target.clientHeight/2)));
+        object.style.top = Math.round(-1*ydiff) + "px";
     }
 
-    function startAnim() {
-        center();
+    function startLogoAnim() {
+        let logo = document.getElementById("logo");
+        let pcbElement = document.getElementById("pcbtraces");
+        center(pcbElement, logo);
         reset();
         if (animInterval != 0) {
             clearInterval(animInterval);

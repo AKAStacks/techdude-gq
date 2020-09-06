@@ -3306,7 +3306,7 @@ input, select, textarea {
 					-moz-transition: font-size 0.2s ease;
 					-webkit-transition: font-size 0.2s ease;
 					-ms-transition: font-size 0.2s ease;
-					transition: font-size 0.2s ease;
+					transition: font-size 0.2s ease, background-color 0.5s, color 0.5s;
 					display: inline-block;
 					height: 2.25em;
 					line-height: 2.25em;

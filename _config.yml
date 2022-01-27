@@ -133,10 +133,10 @@ kramdown:
 
 navbar:
     - title: Mission
-      url: /
+      url: 
 
     - title: Services
-      url: /services.html
+      url: services.html
 
     - title: Contact
       url: contact.html
